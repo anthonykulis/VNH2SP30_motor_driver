@@ -43,12 +43,12 @@ void VNH2SP30::clockwise(int SIDE){
 	if(SIDE == LEFT){
 		digitalWrite(left_in_a, HIGH);
 		digitalWrite(left_in_b, LOW);
-		left_direction = 1;
+		left_direction = 0;
 	}
 	else if(SIDE == RIGHT){
 		digitalWrite(right_in_a, HIGH);
 		digitalWrite(right_in_b, LOW);
-		right_direction = 1;
+		right_direction = 0;
 	}
 }
 
